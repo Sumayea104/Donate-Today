@@ -1,5 +1,6 @@
 *{
     font-family: 'Josefin Sans', sans-serif;
+    box-sizing: border-box;
 }
 
 /*----------top banner-----------*/
@@ -23,15 +24,18 @@
     color: antiquewhite;
     font-size: 26px;
 }
-.banner-items button{
-    padding: 20px 45px 20px 45px;
+button{
+    padding: 20px 45px;
     font-size: 18px;
-    border-radius: 15px;
-    background-color: purple;
+    text-decoration: none;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    background-color: #f9004d;
     color: #fff;
-    font-weight: 600;
+    font-weight: bold;
+    transition: transform .4s;
 }
-.banner-items button:hover{
+.donate-btn:hover{
     color: rgba(11, 9, 14, 0.692);
     font-weight: bold;
     background-color: rgb(233, 171, 233);
@@ -47,12 +51,19 @@
 .amount{
     display: flex;
 }
-.amount li{
+.amount-list{
     list-style: none;
-    margin: 5px;
-    padding: 30px;
-    justify-content: space-evenly;
+    display: flex;
+    border: 5px black;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    text-align: center;
+    overflow: 0;
+    padding: 30px 40px;
+    justify-content: space-around;
     box-sizing: border-box;
+
 }
 
 /*---------------mid section donate plan----------*/
@@ -66,6 +77,46 @@
 .plan p{
     font-size: 18px;
 }
+.colum{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    min-height: 400px;
+}
+.row{
+    margin: 0 -5px;
+}
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+/*.card{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+}*/
+.card{
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    background: #c2a2a2;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    text-align: center;
+    overflow: 0;
+}
+.icons{
+    font-size: 50px;
+    display: block;
+    margin: 25px;
+    color: black;
+}
+
+
+
 /*.plan-items{
     display: flex;
     width: 300px;
@@ -84,14 +135,86 @@
 
 /*-----------mid section bottom-----------*/
 
-
+.support{
+    width: 100%;
+    padding: 100px 0px;
+    text-align: left;
+}
+.support img{
+    height: auto;
+    width: 430px;
+}
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
 
 
 
 
 /*-----------get my updates-----------*/
 
+.updates{
+    text-align: center;
+}
+.email{
+    text-align: center;
+    background-color: rgb(196, 51, 51);
+    padding: 45px 150px 50px 150px;
+    border: 1px;
+}
+.newslatter form{
+    width: 400px;
+    padding: 25px 50px 25px;
+    max-width: 100%;
+    position: relative;
+}
+.newslatter form input:first-child{
+    display: inline-block;
+    width: 100%;
+    position: 14px 130px 14px 15px;
+    border: 2px solid #f9004d;
+    outline: none;
+    border-radius: 30px;
+}
+.newslatter form input:last-child{
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    border: none;
+    padding: 10px 30px;
+    background-color: #f9004d;
+    color: white;
+    box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
+    top: 6px;
+    right: 6px;
+}
 
+/*.mail{
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+.subscribe{
+    background-color: rgb(201, 167, 167);
+    color: white;
+    border: none;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+.subscribe:hover{
+    opacity: 0.8;
+}*/
 
 
 
