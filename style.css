@@ -38,4 +38,88 @@
 }
 
 /*---------------mid section----------*/
+.mid-top{
+    align-content: center;
+}
+.donate-today{
+    text-align: center;
+}
+.amount{
+    display: flex;
+}
+.amount li{
+    list-style: none;
+    margin: 5px;
+    padding: 30px;
+    justify-content: space-evenly;
+    box-sizing: border-box;
+}
+
+/*---------------mid section donate plan----------*/
+
+.plan{
+    text-align: center;
+}
+.plan h1{
+    font-size: 24px ;
+}
+.plan p{
+    font-size: 18px;
+}
+/*.plan-items{
+    display: flex;
+    width: 300px;
+    height: 100px;
+    box-sizing: border-box;
+    border: 1px solid blue;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 50px;
+    align-items: center;
+    justify-content: space-evenly;
+    box-shadow: 10px 10px 10px gray;
+}*/
+
+
+
+/*-----------mid section bottom-----------*/
+
+
+
+
+
+
+/*-----------get my updates-----------*/
+
+
+
+
+
+
+/*----------- ------- footer -------------------*/
+
+.footer{
+    text-align: center;
+    background-color: black;
+    padding: 45px 150px 50px 150px;
+    border: 1px;
+
+}
+.footer h1{
+    font-size: 32px;
+    font-weight: bold;
+    color: red;
+}
+.footer h3{
+    font-size: 18px;
+    color: gray;
+}
+
+
+
+
+
+
+
+
 
