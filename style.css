@@ -2,7 +2,10 @@
     font-family: 'Josefin Sans', sans-serif;
     box-sizing: border-box;
 }
-
+body{
+    margin: 0;
+    padding: 0;
+}
 /*----------top banner-----------*/
 .banner-image img{
     width: 100%;
@@ -34,11 +37,8 @@ button{
     color: #fff;
     font-weight: bold;
 }
-button:hover{
-    color: rgba(11, 9, 14, 0.692);
-    font-weight: bold;
-    background-color: rgb(233, 171, 233);
-}
+
+
 
 /*---------------mid section----------*/
 .mid-top{
@@ -69,18 +69,26 @@ button:hover{
     box-sizing: border-box;
     background-color: #e9e6e7;
     border-radius: 5px;
-    border-color: rgb(158, 61, 61);
+    border-color: rgb(241, 74, 74);
     margin: 15px;
     padding: 30px;
 }
 .flex-container p:hover{
-    color: #f9004d;
+    font-size: 30px;
+    color: #fdf9fa;
     font-weight: bold;
-    background-color: #000;
+    border: #302d2d;
+    border-style: solid;
+    background-color: rgb(247, 137, 146);
 }
 .other{
     color: #858585;
     text-align: center;
+}
+.other input{
+    font-size: 18px;
+    padding: 20px 25px 10px;
+    border: none;
 }
 .btn-dnt{
     justify-content: center;
@@ -132,23 +140,22 @@ button:hover{
 .education{
     background-color: rgb(134, 221, 221);
 }
-
 .icons{
     font-size: 50px;
     display: block;
     margin: 25px;
     color: black;
 }
+
+
 /*-----------mid section bottom-----------*/
 
 .support{
     display: flex;
     margin: 90px;
+    padding-top: 20px;
 }
-.support img{
-    height: 80%;
-    width: 900px;
-}
+
 .half-width{
     width: 50%;
     padding-left: 10%;
@@ -158,11 +165,9 @@ button:hover{
     font-size: 60px;
 }
 .half-width img{
-    width: 70%;
-    justify-content: space-around;
+    width: 100%;
+    justify-content: space-evenly;
 }
-
-
 
 
 /*-----------get my updates-----------*/
@@ -173,69 +178,45 @@ button:hover{
 .updates{
     text-align: center;
 }
-/*.mail{
-    text-align: center;
-    background-color: rgb(196, 51, 51);
-    padding: 45px 150px 50px 150px;
-    border: 1px;
-}*/
-.newslatter form{
-    width: 400px;
-    padding: 25px 50px 25px;
+.updates h1{
+    font-size: 50px;
+}
+.updates p{
+    font-size: 18px;
+}
+.news-latter form{
+    display: flex;
+    background-color: #e9e6e7;
+    background-position: center;
+    background-size: auto;
+    width: 60%;
+    margin-left: 20%;
+    padding: 70px 120px 70px 120px;
     max-width: 100%;
     position: relative;
+    font-size: 24p;
 }
-.newslatter form input:first-child{
+.news-latter form input:first-child{
     display: inline-block;
     align-items: center;
-    padding: 12px;
+    padding: 15px;
     width: 100%;
-    position: 14px 130px 14px 15px;
     border: 1px solid #f9004d;
     outline: none;
-    border-radius: 3px;
+    background-color: rgb(253, 252, 252);
     box-sizing: border-box;
-    margin-left: -5px;
 }
-.newslatter form input:last-child{
-    position: absolute;
+.news-latter form input:last-child{
     display: inline-block;
     outline: none;
     border: none;
     padding: 10px 30px;
     background-color: #f9004d;
     color: white;
-    box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
-    top: 6px;
-    right: 6px;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
 }
-
-.subscribe:hover{
-    opacity: 0.8;
-}
-/*.mail{
-    width: 100%;
-    padding: 12px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    box-sizing: border-box;
-}
-.subscribe{
-    background-color: rgb(201, 167, 167);
-    color: white;
-    border: none;
-    padding: 12px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    box-sizing: border-box;
-}
-.subscribe:hover{
-    opacity: 0.8;
-}*/
-
-
 
 
 /*----------- ------- footer -------------------*/
@@ -248,7 +229,7 @@ button:hover{
 
 }
 .footer h1{ 
-    font: 2em ;
+    font: 30px ;
     font-weight: bold;
     color: red;
 }
