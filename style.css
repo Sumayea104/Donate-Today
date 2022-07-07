@@ -168,6 +168,15 @@ button{
     width: 100%;
     justify-content: space-evenly;
 }
+/*-----------get my updates-----------*/
+.bonus-text{
+    text-align: justify;
+    font-size: 20px;
+    background-color: beige;
+    font-weight: 400;
+    padding: 20px 40px;
+}
+
 
 
 /*-----------get my updates-----------*/
