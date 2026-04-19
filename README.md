@@ -1,7 +1,3 @@
-Acha, assignment-er shurur diker project hishebe eta darun ekta topic! Since you are at the beginning of your learning journey, keeping the README clean and structured is a great habit to build. It shows that you care about your work's documentation.
-
-Ekhane ami assignment-er jonno suitable ekta README.md template diye dichhi, jeta tumi direct use korte parbe:
-
 Donate Today - Assignment Project
 This is a simple, responsive website designed as part of my initial learning journey in web development. The project focuses on creating a functional and aesthetic landing page for a donation platform.
 
